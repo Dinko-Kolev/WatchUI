@@ -14,6 +14,8 @@
 		D3172E952BC0C0880006B9C2 /* WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3172E942BC0C0880006B9C2 /* WatchUITests.swift */; };
 		D3172E9F2BC0C0880006B9C2 /* WatchUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3172E9E2BC0C0880006B9C2 /* WatchUIUITests.swift */; };
 		D3172EA12BC0C0880006B9C2 /* WatchUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3172EA02BC0C0880006B9C2 /* WatchUIUITestsLaunchTests.swift */; };
+		D3172EAE2BC0C2440006B9C2 /* watchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3172EAD2BC0C2440006B9C2 /* watchView.swift */; };
+		D3172EB02BC0E5330006B9C2 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3172EAF2BC0E5330006B9C2 /* TimeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D3172E9A2BC0C0880006B9C2 /* WatchUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3172E9E2BC0C0880006B9C2 /* WatchUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchUIUITests.swift; sourceTree = "<group>"; };
 		D3172EA02BC0C0880006B9C2 /* WatchUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3172EAD2BC0C2440006B9C2 /* watchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchView.swift; sourceTree = "<group>"; };
+		D3172EAF2BC0E5330006B9C2 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			children = (
 				D3172E832BC0C0860006B9C2 /* WatchUIApp.swift */,
 				D3172E852BC0C0860006B9C2 /* ContentView.swift */,
+				D3172EAD2BC0C2440006B9C2 /* watchView.swift */,
 				D3172E872BC0C0880006B9C2 /* Assets.xcassets */,
 				D3172E892BC0C0880006B9C2 /* Preview Content */,
+				D3172EAF2BC0E5330006B9C2 /* TimeManager.swift */,
 			);
 			path = WatchUI;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3172EAE2BC0C2440006B9C2 /* watchView.swift in Sources */,
 				D3172E862BC0C0860006B9C2 /* ContentView.swift in Sources */,
+				D3172EB02BC0E5330006B9C2 /* TimeManager.swift in Sources */,
 				D3172E842BC0C0860006B9C2 /* WatchUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
